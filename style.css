@@ -112,7 +112,7 @@ section img{
 }
 section div p{
     color: var(--n-grayish-blue);
-    padding-right: 16rem;
+    /* padding-right: 16rem; */
 }
 section{
     /* height: 25rem; */
@@ -130,11 +130,11 @@ section:nth-child(2){
 }
 
 .flow p{
-    padding-left: 12rem;
+    padding-left: 2rem;
     padding-right: 0;
 }
 .flow h3{
-    padding-left: 12rem;   
+    padding-left: 2rem;   
 } 
 
 
