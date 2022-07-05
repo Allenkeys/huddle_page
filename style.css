@@ -26,7 +26,7 @@ body{
     z-index: -1;
 }
 .hero-section{
-    max-height: 1116px;
+    /* max-height: 1116px; */
     width: 100%;
     background-image: url(./images/bg-hero-desktop.svg);
     background-color: var(--n-very-pale-cyan);
@@ -115,7 +115,7 @@ section div p{
     padding-right: 16rem;
 }
 section{
-    height: 25rem;
+    /* height: 25rem; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -258,6 +258,20 @@ i:active{
         padding: 10rem 12rem 5rem 12rem;
     }
 }
+
+@media screen and (max-width: 1200px) {
+    section div p{
+        padding-right: 0;
+    }
+    .flow p {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .flow h3 {
+        padding-left: 0;
+    }
+}
+
 @media screen and (max-width: 480px){
     body{
         max-width: 100vw;
