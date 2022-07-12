@@ -72,7 +72,7 @@ body{
     font-family: var(--heading-font);
     font-weight: var(--heading-weight);
     text-transform: capitalize;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .intro p{
     margin-top: -1.5rem;
